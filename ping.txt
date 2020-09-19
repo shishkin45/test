@@ -1,0 +1,59 @@
+user@oki1:~$ ping vk.com
+ping: unknown host vk.com
+user@oki1:~$ ping yandex.ru
+PING yandex.ru (77.88.55.55) 56(84) bytes of data.
+64 bytes from yandex.ru (77.88.55.55): icmp_seq=6 ttl=58 time=44.8 ms
+64 bytes from yandex.ru (77.88.55.55): icmp_seq=8 ttl=58 time=44.8 ms
+64 bytes from yandex.ru (77.88.55.55): icmp_seq=10 ttl=58 time=44.8 ms
+64 bytes from yandex.ru (77.88.55.55): icmp_seq=12 ttl=58 time=44.7 ms
+64 bytes from yandex.ru (77.88.55.55): icmp_seq=13 ttl=58 time=45.0 ms
+^C
+--- yandex.ru ping statistics ---
+14 packets transmitted, 5 received, 64% packet loss, time 25130ms
+rtt min/avg/max/mdev = 44.767/44.862/45.049/0.213 ms
+user@oki1:~$ ping google.com
+PING google.com (74.125.205.102) 56(84) bytes of data.
+64 bytes from le-in-f102.1e100.net (74.125.205.102): icmp_seq=1 ttl=111 time=53.1 ms
+64 bytes from le-in-f102.1e100.net (74.125.205.102): icmp_seq=2 ttl=111 time=53.1 ms
+64 bytes from le-in-f102.1e100.net (74.125.205.102): icmp_seq=7 ttl=111 time=53.2 ms
+64 bytes from le-in-f102.1e100.net (74.125.205.102): icmp_seq=8 ttl=111 time=53.1 ms
+64 bytes from le-in-f102.1e100.net (74.125.205.102): icmp_seq=11 ttl=111 time=53.1 ms
+64 bytes from le-in-f102.1e100.net (74.125.205.102): icmp_seq=12 ttl=111 time=52.8 ms
+64 bytes from le-in-f102.1e100.net (74.125.205.102): icmp_seq=13 ttl=111 time=53.1 ms
+64 bytes from le-in-f102.1e100.net (74.125.205.102): icmp_seq=17 ttl=111 time=53.4 ms
+^C
+--- google.com ping statistics ---
+17 packets transmitted, 8 received, 52% packet loss, time 16063ms
+rtt min/avg/max/mdev = 52.861/53.156/53.417/0.186 ms
+user@oki1:~$ ping habr.com
+PING habr.com (178.248.237.68) 56(84) bytes of data.
+64 bytes from 178.248.237.68: icmp_seq=1 ttl=56 time=34.6 ms
+64 bytes from 178.248.237.68: icmp_seq=2 ttl=56 time=34.6 ms
+64 bytes from 178.248.237.68: icmp_seq=3 ttl=56 time=34.7 ms
+64 bytes from 178.248.237.68: icmp_seq=4 ttl=56 time=34.7 ms
+64 bytes from 178.248.237.68: icmp_seq=5 ttl=56 time=34.6 ms
+64 bytes from 178.248.237.68: icmp_seq=6 ttl=56 time=34.6 ms
+64 bytes from 178.248.237.68: icmp_seq=7 ttl=56 time=34.6 ms
+64 bytes from 178.248.237.68: icmp_seq=8 ttl=56 time=34.9 ms
+64 bytes from 178.248.237.68: icmp_seq=9 ttl=56 time=34.8 ms
+64 bytes from 178.248.237.68: icmp_seq=10 ttl=56 time=34.6 ms
+64 bytes from 178.248.237.68: icmp_seq=11 ttl=56 time=34.6 ms
+64 bytes from 178.248.237.68: icmp_seq=12 ttl=56 time=34.6 ms
+64 bytes from 178.248.237.68: icmp_seq=13 ttl=56 time=34.6 ms
+64 bytes from 178.248.237.68: icmp_seq=14 ttl=56 time=34.7 ms
+64 bytes from 178.248.237.68: icmp_seq=15 ttl=56 time=34.8 ms
+64 bytes from 178.248.237.68: icmp_seq=16 ttl=56 time=35.5 ms
+64 bytes from 178.248.237.68: icmp_seq=17 ttl=56 time=34.6 ms
+^C
+--- habr.com ping statistics ---
+17 packets transmitted, 17 received, 0% packet loss, time 20143ms
+rtt min/avg/max/mdev = 34.618/34.755/35.566/0.217 ms
+user@oki1:~$ ping vk.com
+PING vk.com (87.240.190.72) 56(84) bytes of data.
+64 bytes from srv72-190-240-87.vk.com (87.240.190.72): icmp_seq=2 ttl=59 time=56.3 ms
+64 bytes from srv72-190-240-87.vk.com (87.240.190.72): icmp_seq=5 ttl=59 time=56.3 ms
+64 bytes from srv72-190-240-87.vk.com (87.240.190.72): icmp_seq=7 ttl=59 time=56.8 ms
+^C
+--- vk.com ping statistics ---
+14 packets transmitted, 3 received, 78% packet loss, time 13034ms
+rtt min/avg/max/mdev = 56.325/56.501/56.815/0.222 ms
