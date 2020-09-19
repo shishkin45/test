@@ -1,3 +1,5 @@
+Изменение
+
 user@oki1:~$ ping vk.com
 ping: unknown host vk.com
 user@oki1:~$ ping yandex.ru
@@ -13,6 +15,9 @@ PING yandex.ru (77.88.55.55) 56(84) bytes of data.
 rtt min/avg/max/mdev = 44.767/44.862/45.049/0.213 ms
 user@oki1:~$ ping google.com
 PING google.com (74.125.205.102) 56(84) bytes of data.
+
+Вставка строки
+
 64 bytes from le-in-f102.1e100.net (74.125.205.102): icmp_seq=1 ttl=111 time=53.1 ms
 64 bytes from le-in-f102.1e100.net (74.125.205.102): icmp_seq=2 ttl=111 time=53.1 ms
 64 bytes from le-in-f102.1e100.net (74.125.205.102): icmp_seq=7 ttl=111 time=53.2 ms
